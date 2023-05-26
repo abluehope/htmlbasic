@@ -7,6 +7,29 @@
     <title>html basic</title>
     <link rel="stylesheet" href="./css/font.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <style>
+      hr {
+        position: relative;
+        border: none;
+        border-top: 1px solid #ddd;
+        overflow: visible;
+      }
+
+      hr::before {
+        content: "\ea10";
+        font-family: xeicon;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        padding: 10px;
+        color: #ddd;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+        background: #fff;
+      }
+    </style>
   </head>
   <body>
     <h1>HTML basic - 처음 배우는 HTML</h1>
@@ -16,15 +39,30 @@
       <li><a href="./doc/basic.html" target="_blank">기본 실습 layout</a></li>
     </ul>
 
+    <hr />
+
+    <h2>css layout header part</h2>
+    <ul>
+      <li>
+        <a href="./doc/header02.html">header layout 1200 width + 모바일 메뉴</a>
+      </li>
+      <li><a href="./doc/header03.html">드롭다운 메뉴</a></li>
+      <li><a href="./doc/header04.html">애니메이션 드롭다운 메뉴</a></li>
+    </ul>
+
+    <hr />
+
     <h2>Background</h2>
     <ul>
       <li>
         [2023.05.17]
-        <a href="./doc/background01.html" target="_blank"
-          >background 배우기 - 중요함.</a
-        >
+        <a href="./doc/background01.html" target="_blank">
+          background 배우기 - 중요함.
+        </a>
       </li>
     </ul>
+
+    <hr />
 
     <h2>Video</h2>
     <ul>
@@ -44,6 +82,8 @@
       </li>
     </ul>
 
+    <hr />
+
     <h2>요소의 가로배치</h2>
     <ul>
       <li>
@@ -59,6 +99,8 @@
         </a>
       </li>
     </ul>
+
+    <hr />
 
     <h2>요소의 겹침</h2>
     <ul>
@@ -88,6 +130,8 @@
       </li>
     </ul>
 
+    <hr />
+
     <h2>요소의 고정</h2>
     <ul>
       <li>
@@ -98,6 +142,8 @@
       </li>
     </ul>
 
+    <hr />
+
     <h2>Slider : main visual</h2>
     <ul>
       <li>
@@ -107,6 +153,8 @@
         >
       </li>
     </ul>
+
+    <hr />
 
     <h2>Slider : content</h2>
     <ul>
@@ -122,6 +170,8 @@
       </li>
     </ul>
 
+    <hr />
+
     <h2>Tap menu 01 - display: none, block으로 공간을 제어</h2>
     <ul>
       <li>
@@ -131,6 +181,8 @@
         </a>
       </li>
     </ul>
+
+    <hr />
 
     <h2>가상요소 - ::before, ::after</h2>
     <ul>
